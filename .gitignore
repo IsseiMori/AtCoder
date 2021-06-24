@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+
+# ignore files without extension = all executables
+*
+!*.*
+!*/
+
+# Mac OS This must be after the "all executables ignore"
+.DS_Store
